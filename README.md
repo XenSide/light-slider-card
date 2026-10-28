@@ -2,7 +2,7 @@
 
 A Home Assistant dashboard card where the whole card is the brightness slider for one light. The fill takes the light's current colour and has an animated wave on its surface. It works vertically or horizontally.
 
-![Preview](images/preview.png)
+![Light Slider Card with the animated wave](images/wave.gif)
 
 - **Drag** up/down (or left/right) to set the brightness. Dragging to the very bottom turns the light off.
 - **Tap** to toggle the light.
@@ -44,6 +44,10 @@ name: Living room
 orientation: horizontal
 wave: true
 ```
+
+With `wave: false` the fill has a straight edge and no wave motion:
+
+![Light Slider Card with the wave turned off](images/no-wave.png)
 
 ## Notes
 
